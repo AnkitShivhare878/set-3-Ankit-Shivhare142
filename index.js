@@ -7,7 +7,7 @@ const connectDB = require("./config/db");
 
 
 const authRoutes = require("./routes/auth.routes");
-const fileRoutes = require("./routes/file.routes");
+const fileRoutes = require("./routes/File.routes");
 
 
 console.log("DEBUG: MONGO_URI =", process.env.MONGO_URI);
