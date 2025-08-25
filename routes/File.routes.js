@@ -4,7 +4,7 @@ const fs = require("fs");
 const multer = require("multer");
 const cloudinary = require("../config/cloudinary");
 const { sendMail } = require("../config/mailer");
-const File = require("C:/Users/Asus/OneDrive/Desktop/set-3 Ankit Shivhare/models/file.js");
+const File = require("../models/file.js");
 const auth = require("../middleware/auth");
 
 
